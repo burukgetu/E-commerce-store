@@ -4,8 +4,10 @@ import { ShoppingBag } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 
-import Button from "@/components/ui/Button";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import Button from "@/components/ui/button";
 import useCart from "@/hooks/use-cart";
+
 
 const NavbarActions = () => {
     const [ismounted, setIsMounted] = useState(false);
